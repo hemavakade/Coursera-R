@@ -1,3 +1,4 @@
 # Coursera-R
 R assignments on Coursera
-Assognment-1
+
+Assignment-1
