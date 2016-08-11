@@ -1,7 +1,7 @@
 pollutantmean <- function(directory, pollutant, id = 1:332){
-	# choose all the files
+	# Choose all the files
 	filenames <- list.files(path='specdata', pattern = '*.csv')
-	# filter the files we need
+	# Filter the files we need
 	reqd_fn <- filenames[id]
 	# Create an empty dataframe
 	df = data.frame()
